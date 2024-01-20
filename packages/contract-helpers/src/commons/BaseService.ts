@@ -64,7 +64,15 @@ export default class BaseService<T extends Contract> {
         value: value ?? DEFAULT_NULL_VALUE_ON_TX,
       };
 
+      try{
       tx.gasLimit = await estimateGasByNetwork(tx, this.provider, gasSurplus);
+    } catch (e: unknown) {
+        console.warn('Failed to estimate gas limit, using default',e );
+        tx.gasLimit = BigNumber.from(
+            action ? gasLimitRecommendations[action].recommended : gasLimitRecommendations[ProtocolAction.default].recommended,
+          );
+    }
+
 
       if (
         action &&
