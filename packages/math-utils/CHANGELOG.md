@@ -3,6 +3,75 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2024-01-20)
+
+
+### Bug Fixes
+
+* add export for user methods ([#46](https://github.com/aave/aave-utilities/issues/46)) ([@sakulstra](https://github.com/sakulstra)) ([6b04b02](https://github.com/aave/aave-utilities/commit/6b04b02bff78975352d786b9fe06f68cad19b880))
+* add reserve formatters to export ([08078d3](https://github.com/aave/aave-utilities/commit/08078d38d4adc21089e9d81c06a2c66ffa71ade2))
+* batch of fixes ([#78](https://github.com/aave/aave-utilities/issues/78)) ([37fc7f8](https://github.com/aave/aave-utilities/commit/37fc7f8b1d3c1dd15834f28afd9e9bd251c354f6))
+* check for liq threshold in place of ltv for user collateral check ([#505](https://github.com/aave/aave-utilities/issues/505)) ([7c776d2](https://github.com/aave/aave-utilities/commit/7c776d23c50ff0d5240151a922c64e837818283d))
+* Fix typos ([#486](https://github.com/aave/aave-utilities/issues/486)) ([db4cef5](https://github.com/aave/aave-utilities/commit/db4cef584a68f951183df25ffa2e8f2042893d21))
+* formatted emode liquidation bonus ([#321](https://github.com/aave/aave-utilities/issues/321)) ([8819000](https://github.com/aave/aave-utilities/commit/88190000acfeb4045102c04e836cc6daee60fc09))
+* handle user incentives calculation with empty userReserves ([#133](https://github.com/aave/aave-utilities/issues/133)) ([49371fa](https://github.com/aave/aave-utilities/commit/49371fa8fa05bcc9002a9a1cdd151aeeadc3047b))
+* port apy calculation fix from aave-js ([#125](https://github.com/aave/aave-utilities/issues/125)) ([7ff9307](https://github.com/aave/aave-utilities/commit/7ff93077b6bb97ec2c608f4e19e973d0368f4ef7))
+* properly calculate usd values ([#377](https://github.com/aave/aave-utilities/issues/377)) ([07a3cc4](https://github.com/aave/aave-utilities/commit/07a3cc419687eb80b9812f7b98fd793e550d5d7d))
+* push packages build ([9243082](https://github.com/aave/aave-utilities/commit/92430822dd893f8d36eac32da1b394f145548455))
+* push packages build ([8174556](https://github.com/aave/aave-utilities/commit/8174556e6b6dce1dcea31498600abe4b7a05f790))
+* remove alpha from master wording ([1e03694](https://github.com/aave/aave-utilities/commit/1e03694924f7f9f414f1257ba3b2ef4674ef8874))
+* remove dist ([ce1a747](https://github.com/aave/aave-utilities/commit/ce1a7471eb7bd2e71866dec99364bd51da788fcb))
+* remove legacy USD decimals ([#69](https://github.com/aave/aave-utilities/issues/69)) ([9ac911b](https://github.com/aave/aave-utilities/commit/9ac911bbfff2f3928404cedff31ec551c398cf11))
+* rewrap bn ([#313](https://github.com/aave/aave-utilities/issues/313)) ([86e675b](https://github.com/aave/aave-utilities/commit/86e675beafa416b6527d2957b76bf6507d87d77d))
+* support different reward token prices per subtoken ([#72](https://github.com/aave/aave-utilities/issues/72)) ([86633c5](https://github.com/aave/aave-utilities/commit/86633c560be2e6873a58116600e384b79ffb0de5))
+* update incentives calculation wit configurable decimal shifts ([#71](https://github.com/aave/aave-utilities/issues/71)) ([5cc8337](https://github.com/aave/aave-utilities/commit/5cc8337192624dc2e8a914b377f8dac38ffaa028))
+* use correct rate for compounding ([#229](https://github.com/aave/aave-utilities/issues/229)) ([a34b171](https://github.com/aave/aave-utilities/commit/a34b1713e3fd3858b68cf07d1a251e27f51c8e55))
+* user incentives input type and export response type ([#76](https://github.com/aave/aave-utilities/issues/76)) ([363dd86](https://github.com/aave/aave-utilities/commit/363dd86737ba602bb7a8a68628af44b6e8a8e5e4))
+* user usd formatting ([#155](https://github.com/aave/aave-utilities/issues/155)) ([0f3521b](https://github.com/aave/aave-utilities/commit/0f3521bf0862f0c0b70b6d3b6c2801414cdce977))
+
+
+### Features
+
+* add networks enum ([#79](https://github.com/aave/aave-utilities/issues/79)) ([8ab2f20](https://github.com/aave/aave-utilities/commit/8ab2f209767228d4c5cf1e6b9a56bbe2760420e4))
+* add release scripts ([#45](https://github.com/aave/aave-utilities/issues/45)) ([94d3612](https://github.com/aave/aave-utilities/commit/94d36123b78eff84b061aa096a5c5d0843741676))
+* add reward token decimals to user dictionary ([#87](https://github.com/aave/aave-utilities/issues/87)) ([c70f38d](https://github.com/aave/aave-utilities/commit/c70f38dfb3e2e88c5a5cfff716050bf332422111))
+* add unbackedUSD field ([#329](https://github.com/aave/aave-utilities/issues/329)) ([7d6feea](https://github.com/aave/aave-utilities/commit/7d6feeacffbd3318f78e50a8caa9f772f8b14ff4))
+* added new fields to v3 uipooldataprovider ([#154](https://github.com/aave/aave-utilities/issues/154)) ([09584fe](https://github.com/aave/aave-utilities/commit/09584fede051cfc2be0c05d496d31018431a69f2))
+* all reserve incentives ([#107](https://github.com/aave/aave-utilities/issues/107)) ([657575f](https://github.com/aave/aave-utilities/commit/657575f12625493f3250ce3c23ca7fb90c222ed2))
+* delegation tx builder ([#156](https://github.com/aave/aave-utilities/issues/156)) ([6abae6d](https://github.com/aave/aave-utilities/commit/6abae6da9204d39cbf30e447a2ba76a6fdc43242))
+* export incentive helpers ([#63](https://github.com/aave/aave-utilities/issues/63)) ([adfbf17](https://github.com/aave/aave-utilities/commit/adfbf17364b63d2af85e358c83fddc75e2c3ab2d))
+* fixed available debt in isolated reserve in case that debt > ma… ([#532](https://github.com/aave/aave-utilities/issues/532)) ([7a2ea1e](https://github.com/aave/aave-utilities/commit/7a2ea1e94a26008247b4c4c045641291ff20261b))
+* flag contracts as side effect free for shaking ([#433](https://github.com/aave/aave-utilities/issues/433)) ([9e425e8](https://github.com/aave/aave-utilities/commit/9e425e8b009d609a910be6cf980aa1ea545b86ac))
+* gho ([#445](https://github.com/aave/aave-utilities/issues/445)) ([102091c](https://github.com/aave/aave-utilities/commit/102091c8d3355f8ef63c131f3d0c8f224549e0c0)), closes [#443](https://github.com/aave/aave-utilities/issues/443) [#444](https://github.com/aave/aave-utilities/issues/444) [#446](https://github.com/aave/aave-utilities/issues/446) [#447](https://github.com/aave/aave-utilities/issues/447) [#451](https://github.com/aave/aave-utilities/issues/451) [#443](https://github.com/aave/aave-utilities/issues/443) [#444](https://github.com/aave/aave-utilities/issues/444) [#446](https://github.com/aave/aave-utilities/issues/446) [#447](https://github.com/aave/aave-utilities/issues/447) [#451](https://github.com/aave/aave-utilities/issues/451) [#472](https://github.com/aave/aave-utilities/issues/472) [#461](https://github.com/aave/aave-utilities/issues/461) [#462](https://github.com/aave/aave-utilities/issues/462) [#466](https://github.com/aave/aave-utilities/issues/466) [#443](https://github.com/aave/aave-utilities/issues/443) [#444](https://github.com/aave/aave-utilities/issues/444) [#446](https://github.com/aave/aave-utilities/issues/446) [#447](https://github.com/aave/aave-utilities/issues/447) [#451](https://github.com/aave/aave-utilities/issues/451) [#485](https://github.com/aave/aave-utilities/issues/485) [#506](https://github.com/aave/aave-utilities/issues/506) [#492](https://github.com/aave/aave-utilities/issues/492) [#499](https://github.com/aave/aave-utilities/issues/499) [#493](https://github.com/aave/aave-utilities/issues/493) [#501](https://github.com/aave/aave-utilities/issues/501) [#505](https://github.com/aave/aave-utilities/issues/505) [#486](https://github.com/aave/aave-utilities/issues/486) [#507](https://github.com/aave/aave-utilities/issues/507)
+* governance voting contract ([#151](https://github.com/aave/aave-utilities/issues/151)) ([ff6726f](https://github.com/aave/aave-utilities/commit/ff6726fc1333b5fbb2794a472e82f6660f89e05d))
+* group claimable rewards and assets by IncentiveController ([#74](https://github.com/aave/aave-utilities/issues/74)) ([20335a3](https://github.com/aave/aave-utilities/commit/20335a37f53ce938c4f0ae6e93a079b030c1aaf4)), closes [#75](https://github.com/aave/aave-utilities/issues/75)
+* make user formatter generic ([#270](https://github.com/aave/aave-utilities/issues/270)) ([5a33387](https://github.com/aave/aave-utilities/commit/5a3338722b4b1c6e7c6f869548410249a88998a3))
+* map ui pooldata provider for amm tokens  ([#136](https://github.com/aave/aave-utilities/issues/136)) ([82414d0](https://github.com/aave/aave-utilities/commit/82414d03ab1746e9b5de382ba919e48ffd566d92))
+* modify incentive helper parameter types to accomodate aave-ui ([#66](https://github.com/aave/aave-utilities/issues/66)) ([f2ca35e](https://github.com/aave/aave-utilities/commit/f2ca35ec914734d54f1a7e585adeafb7d1059189))
+* separate apy and apr ([#144](https://github.com/aave/aave-utilities/issues/144)) ([965338d](https://github.com/aave/aave-utilities/commit/965338d36074ae109bd14ef6d6839bf5905a8123))
+* tx bundle refactor ([#514](https://github.com/aave/aave-utilities/issues/514)) ([fc5c937](https://github.com/aave/aave-utilities/commit/fc5c9378b48a14a31df9fdbe435095a3e81390a2)), closes [#524](https://github.com/aave/aave-utilities/issues/524) [#504](https://github.com/aave/aave-utilities/issues/504)
+* update incentive exports ([#67](https://github.com/aave/aave-utilities/issues/67)) ([9683825](https://github.com/aave/aave-utilities/commit/9683825b5ba92eb7d1c1692d2ad21a3d3ad49754))
+* update jest and typescript ([#432](https://github.com/aave/aave-utilities/issues/432)) ([216f5bb](https://github.com/aave/aave-utilities/commit/216f5bbfe4bca507b28373a58015615d9a24bf6b))
+* update READMEs ([#344](https://github.com/aave/aave-utilities/issues/344)) ([8e2bfa7](https://github.com/aave/aave-utilities/commit/8e2bfa7491c23e153a53bb6a096dbdb624aa6d00))
+* usd reserve math ([#58](https://github.com/aave/aave-utilities/issues/58)) ([0221611](https://github.com/aave/aave-utilities/commit/02216114fe269ee05b4d97d892c82e0747dba1b8))
+* v3 migration ([#465](https://github.com/aave/aave-utilities/issues/465)) ([ac9197f](https://github.com/aave/aave-utilities/commit/ac9197f6a2237b34e917d23bc79798efe3e04cb1))
+
+
+* feat!: migrate helpers to support v2 and v3 (#176) ([b679d19](https://github.com/aave/aave-utilities/commit/b679d19f24a4ff78e6bcf73029dbedc9b04dc5ea)), closes [#176](https://github.com/aave/aave-utilities/issues/176)
+
+
+### BREAKING CHANGES
+
+* The contract helper now contains all required helpers to build a/the ui.
+A lot of interfaces have been aligned which caused breaking changes in all places. Make sure to check out the new docs.
+
+Co-authored-by: Lukas <lukasstrassel@googlemail.com>
+Co-authored-by: Andrew Schmidt <andrew@aave.com>
+
+
+
+
+
 # 1.23.0 (2024-01-19)
 
 
